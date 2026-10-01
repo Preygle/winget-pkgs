@@ -1,0 +1,32 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: Preygle.MangaBinder
+PackageVersion: 0.1.1
+PackageLocale: en-US
+Publisher: Preygle
+PublisherUrl: https://github.com/Preygle
+PublisherSupportUrl: https://github.com/Preygle/manga-downloader/issues
+Author: Mohammad Owais
+PackageName: MangaBinder
+PackageUrl: https://github.com/Preygle/manga-downloader
+License: MIT
+LicenseUrl: https://github.com/Preygle/manga-downloader/blob/master/LICENSE
+ShortDescription: Download manga chapters, convert them to PDF, bind them into volumes and export CBZ.
+Description: |-
+  MangaBinder downloads every chapter of a manga series from an online reader, converts the chapters to PDF,
+  binds them into volumes using MangaDex / AniList volume data (with a bookmark per chapter) and exports CBZ
+  for e-readers. Run `mangabinder` to open the browser interface, or use the command line, e.g.
+  `mangabinder download URL --volumes`.
+Moniker: mangabinder
+Tags:
+- cbz
+- cli
+- comics
+- downloader
+- ebook
+- manga
+- pdf
+ReleaseNotesUrl: https://github.com/Preygle/manga-downloader/releases/tag/v0.1.1
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0

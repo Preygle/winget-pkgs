@@ -1,0 +1,15 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Preygle.MangaBinder
+PackageVersion: 0.1.1
+InstallerType: portable
+Commands:
+- mangabinder
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/Preygle/manga-downloader/releases/download/v0.1.1/mangabinder.exe
+  InstallerSha256: 0509E6E28D063C0CCBF86BE657FEA0D6BA0A22083DDBF599024AC33FAEDCBE13
+ManifestType: installer
+ManifestVersion: 1.12.0
+ReleaseDate: 2026-10-01
